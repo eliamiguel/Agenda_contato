@@ -40,6 +40,8 @@ header img{
   transition-timing-function: ease;
 }
 form input, button{
+  display: flex;
+  width: 100%;
   outline: 0px;
   padding: 16px;
   margin-top: 10px;
