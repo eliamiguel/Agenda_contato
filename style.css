@@ -28,7 +28,7 @@ header h1{
   text-align: center;
 }
 header img{
-  margin-left: 15px;
+  
   height: 70px;
   border-radius: 50%;
 
@@ -38,7 +38,7 @@ header div{
 }
 form{
   display: block;
-  width: 100vw;
+  
   padding: 16px;
   margin: 0px auto;
   color: white;
