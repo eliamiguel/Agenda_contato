@@ -9,14 +9,16 @@
   width: 0px;
   height: px;
 }
-body, html{
+html{
   width: 100vw;
   height: 100vh;
   background-color: black;
 }
+
 header{
   background-color: black;
   width: 90vw;
+
   margin: 0px auto;
   color: white;
   display: block;
@@ -35,7 +37,6 @@ header div{
   text-align: center;
 }
 form{
-  
   display: block;
   width: 100vw;
   padding: 16px;
@@ -78,6 +79,7 @@ td,th{
 }
 footer{
   width:100vw;
+  height: 100%;
   margin: auto;
   padding: 16px;
   padding-bottom: 100%px;
