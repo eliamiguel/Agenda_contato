@@ -30,6 +30,16 @@ header img{
   width: 90px;
   border-radius: 50%;
 }
+.container{
+  font-family: 'Concert One', cursive;
+  width: 90vw;
+  margin: auto;
+  text-align: justify;
+  padding: 20px;
+  transform: width .3s, height .3s;
+  transition-timing-function: ease;
+  
+}
 
 /*header{
   background-color: black;
