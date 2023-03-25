@@ -14,8 +14,20 @@ html{
   height: 100vh;
   background-color: black;
 }
-
 header{
+  background-color: aqua;
+  padding-top: 50px;
+  text-align: center;
+  width: 100vw;
+  margin:0px auto;
+  color: white;
+}
+header img{
+  height:80px;
+  border-radius: 50%;
+}
+
+/*header{
   background-color: black;
   width: 90vw;
 
@@ -34,6 +46,8 @@ header img{
 
 }
 header div{
+  display: inline;
+  justify-content: center;
   text-align: center;
 }
 form{
@@ -88,3 +102,4 @@ footer p{
   color: white;
   text-align: center;
 }
+*/
