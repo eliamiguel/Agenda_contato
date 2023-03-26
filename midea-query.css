@@ -31,6 +31,7 @@
   }
   form input,
 button {
+padding: 20px;
 width: 22%;
 height: 60px;
   }
@@ -58,6 +59,7 @@ height: 60px;
     }
     form input,
   button {
+    padding: 25px;
   width: 23%;
   height: 62px;
     }
