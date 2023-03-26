@@ -15,6 +15,7 @@ html, body{
 /* Estilo para scrollbar */
 ::-webkit-scrollbar {
   width: 0;
+  height: 0;
 }
 
 /* Estilos para header */
@@ -40,7 +41,7 @@ header img {
 
 /* Estilos para container */
 .container {
-  width: 90vw;
+  width: 500px;
   margin: auto;
   padding:20px;
   text-align: justify;
@@ -72,7 +73,7 @@ button:hover{
 }
 /* Estilos para ttabela*/
 table{
-  width:100%;
+  width: 500px;
   justify-content: center;
   padding: 16px;
   padding-bottom: ;
