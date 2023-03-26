@@ -79,7 +79,8 @@ table{
   color: white;
 }
 td,th{
-  font-size: 1em;
+  width:100% ;
+  font-size: 0.8em;
   text-align:center;
   padding: 15px;
   border-bottom: 1px solid gray;
