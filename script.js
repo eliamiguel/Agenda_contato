@@ -1,11 +1,13 @@
 const form = document.getElementById("form")
 let ValidarForm= false
+let linha = '<tr>';
+let linhas= " "; 
+
 
 
 
 /* Validar formulario*/
 form.addEventListener('submit', function(e){
-  let linhas= " "; 
   e.preventDefault();
 
   linhasTabela()
@@ -19,20 +21,19 @@ function linhasTabela(){
   const inputNumero= document.getElementById("numero")
   const inputEmail= document.getElementById("email")
 
-  let linha = '<tr>';
+  
   linha += `<td> ${inputNome.value} </td>`
   linha +=`<td> ${inputNumero.value} </td>`
   linha +=`<td> ${inputEmail.value} </td>`
   linha += '</tr>';
+  linhas += linha;
 }
 /* Adicionar dados na tabela */
 
 function AdicionarDadosTabela() {
-  
   linhas=linha;
-
   const corpoTabela= document.querySelector("tbody")
-  corpoTabela.innerHTML=linha;
+  corpoTabela.innerHTML=linhas;
 }
 
 
