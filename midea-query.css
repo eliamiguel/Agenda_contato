@@ -71,6 +71,7 @@ height: 77px;
   padding: 30px;
   width: 23%;
   height: 79px;
+  overflow: hidden;
   
     }
     td, th{
