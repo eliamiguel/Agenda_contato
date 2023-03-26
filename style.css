@@ -27,7 +27,7 @@ header {
 header h1 {
   padding-bottom: 10px;
   font-family: 'Concert One', cursive;
-  font-size: 3em;
+  font-size: 2.5em;
   
 }
 
@@ -57,7 +57,7 @@ button {
   margin-top: 1rem;
   border-radius: 0.5rem;
   border:none ;
-  font-family: 'Concert One', cursive;
+  
   font-size: 1.2rem;
 }
   
