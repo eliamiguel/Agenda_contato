@@ -59,6 +59,7 @@ button {
   font-family: 'Concert One', cursive;
   font-size: 1.2rem;
 }
+  
 button{
   background-color:rgba(39, 168, 168, 0.975) ;
   color: white;
@@ -95,7 +96,7 @@ footer{
 footer p{
   font-size: 1em;
   padding: 15px;
-  font-weight: bold;
+  
   color:white;
   text-align: center;
 }

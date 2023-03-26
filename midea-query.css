@@ -32,9 +32,16 @@
   form input,
 button {
   text-align: center;
-padding: 20px;
-width: 22%;
-height: 67px;
+padding: 25px;
+width: 23%;
+height: 12.5vh;
+  }
+  td, th{
+    font-size: 1.5em;
+
+  }
+  footer{
+    font-size: 0.9em;
   }
 }
 @media screen and (min-width: 992px) {
@@ -59,11 +66,19 @@ height: 67px;
     display: inline;
     }
     form input,
-  button {
-    text-align: center;
-    padding: 25px;
+  button{
+  text-align: center;
+  padding: 30px;
   width: 23%;
-  max-height: 69px;
+  height: 15vh;
+  
+    }
+    td, th{
+      font-size: 2em;
+
+    }
+    footer{
+      font-size: 1em;
     }
 }
 
