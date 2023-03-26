@@ -8,7 +8,7 @@
 
 /* Definindo tamanho da fonte em relação ao tamanho do dispositivo */
 html, body{
-  
+  width: 100vw;
   min-height: 100vh;
 }
 
@@ -40,10 +40,10 @@ header img {
 
 /* Estilos para container */
 .container {
-  width: 600px;
-  
+  width: 90vw;
   margin: auto;
-  padding: 2rem;
+  padding:20px;
+  text-align: justify;
   transition: width .3s ease, height .3s ease;
 }
 
