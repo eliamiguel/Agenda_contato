@@ -29,12 +29,12 @@
   form{
   display: inline;
   }
-  form input,
+  form input, form
 button {
   text-align: center;
 padding: 25px;
 width: 23%;
-height: 12.5vh;
+height: 77px;
   }
   td, th{
     font-size: 1.5em;
@@ -70,7 +70,7 @@ height: 12.5vh;
   text-align: center;
   padding: 30px;
   width: 23%;
-  height: 15vh;
+  height: 79px;
   
     }
     td, th{
