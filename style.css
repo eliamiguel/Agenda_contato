@@ -40,7 +40,8 @@ header img {
 
 /* Estilos para container */
 .container {
-  width: 90vw;
+  width: 600px;
+  
   margin: auto;
   padding: 2rem;
   transition: width .3s ease, height .3s ease;
