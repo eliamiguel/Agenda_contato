@@ -31,9 +31,10 @@
   }
   form input,
 button {
+  text-align: center;
 padding: 20px;
 width: 22%;
-height: 60px;
+height: 67px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -59,9 +60,10 @@ height: 60px;
     }
     form input,
   button {
+    text-align: center;
     padding: 25px;
   width: 23%;
-  height: 62px;
+  max-height: 69px;
     }
 }
 
