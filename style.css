@@ -7,7 +7,7 @@
 }
 
 /* Definindo tamanho da fonte em relação ao tamanho do dispositivo */
-html {
+body{
   width: 100vw;
   height: 100vh;
 }
