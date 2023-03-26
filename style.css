@@ -7,9 +7,9 @@
 }
 
 /* Definindo tamanho da fonte em relação ao tamanho do dispositivo */
-body{
-  width: 100vw;
-  height: 100vh;
+html, body{
+  
+  min-height: 100vh;
 }
 
 /* Estilo para scrollbar */
