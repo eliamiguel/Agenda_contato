@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
+
 @media screen and (min-width: 768px) and (max-width: 992px){
   body{
     height: 100vh;
     min-height: 100vh;
   }
   .container{
-    max-width: 79vw;
-    width:768px;
+    width: 79vw;
   }
   header{
     display: flex;
