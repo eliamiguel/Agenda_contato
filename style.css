@@ -86,12 +86,13 @@ table{
 td,th{
   width: 100%;
   font-size: 0.8em;
-  text-align:center;
+  text-align: center;
   padding: 15px;
   border-bottom: 1px solid gray;
 
 }
 th{
+  justify-content: center;
   font-family: 'Concert One', cursive;
 }
 /*Estilos do rodapé */
