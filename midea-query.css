@@ -10,7 +10,8 @@
     min-height: 100vh;
   }
   .container{
-    width: 79vw;
+    max-width: 79vw;
+    width:768px;
   }
   header{
     display: flex;

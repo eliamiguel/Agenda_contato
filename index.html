@@ -26,9 +26,9 @@
   </header>
   <form id="form" >
     <div class="container">
-      <input type="text" nome="nome" id="nome"placeholder="Nome">
-      <input type="number" name="numero" id="numero" placeholder="Telefone">
-      <input type="email" name="email" id="email" placeholder="E-mail">
+      <input type="text" nome="nome" id="nome" required placeholder="Nome">
+      <input type="number" name="numero" id="numero" required placeholder="Telefone">
+      <input type="email" name="email" id="email" required placeholder="E-mail">
       <button type="submit">
       Adicionar 
     </button>
@@ -43,17 +43,13 @@
           <th>E-mail</th>
         </tr>
         <tbody>
-          <tr>
-            <td>Jão</td>
-            <td>(41) 9000- 5000</td>
-            <td>meusite@gmail.com</td>
-          </tr>
+        
         </tbody>
         <tfoot>
           <tr>
-            <td>Total </td>
-            <td>2</td>
-            <td>3</td>
+            <td class="t">Total </td>
+            <td></td>
+            <td id="QuantidadeNome"></td>
           </tr>
         </tfoot>
       </thead>
