@@ -84,7 +84,7 @@ table{
   color: white;
 }
 td,th{
-  width: 100%;
+  width: 33%;
   font-size: 0.8em;
   text-align: center;
   padding: 15px;
@@ -92,7 +92,7 @@ td,th{
 
 }
 th{
-  
+  justify-content: center;
   font-family: 'Concert One', cursive;
 }
 /*Estilos do rodapé */
